@@ -1,0 +1,110 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+a {
+    text-decoration: none;
+}
+ul {
+    list-style: none;
+}
+img {
+    max-width: 100%;
+}
+body {
+    background: #E5E5E5;
+}
+html {
+    font-family: 'Roboto', sans-serif;
+    color: #000000;
+}
+.container {
+    max-width: 1170px;
+}
+/*section-product*/
+.section-products {
+    padding-top: 100px;
+    padding-bottom: 30px;
+}
+.section-products__heading {
+    font-size: 48px;
+    line-height: 1;
+    font-weight: 900;
+    text-transform: uppercase;
+    text-align: center;
+    color: #323232;
+    margin-bottom: 40px;
+    margin-top: 0;
+}
+.section-products__title {
+    font-size: 24px;
+    text-align: center;
+    line-height: 1;
+    font-weight: 700;
+    color: #323232;
+}
+.section-products__list {
+    margin-top: 80px;
+}
+.section-products__item {
+    padding: 50px 30px 30px 30px;
+    background-color: #ffffff;
+    margin-bottom: 30px;
+}
+.section-products__item-heading {
+    font-size: 36px;
+    line-height: 1;
+    color: #323232;
+    text-align: center;
+    font-weight: 700;
+    margin-top: 0;
+    margin-bottom: 40px;
+}
+.section-products__item-image {
+    margin-bottom: 30px;
+}
+.section-products__item-description {
+    font-size: 18px;
+    line-height: 21px;
+    font-weight: 300;
+    margin-bottom: 30px;
+}
+.section-products__item-price {
+    font-size: 24px;
+    line-height: 1;
+    font-weight: 900;
+    text-align: center;
+    display: block;
+    text-transform: uppercase;
+}
+.section-products__item-button {
+    font-size: 18px;
+    text-transform: uppercase;
+    color: #fff;
+    font-weight: 900;
+    border: none;
+    background-color: #2CC34F;
+    padding: 18px 0;
+    border-radius: 3px;
+    width: 100%;
+    margin-top: 30px;
+    cursor: pointer;
+}
+.section-products__item-button:hover {
+    background: #22943C;
+}
+/*section-price*/
+.section-price {
+    padding-top: 60px;
+    padding-bottom: 60px;
+    background-color: #fff;
+}
+.section-price__total {
+    font-size: 36px;
+    font-weight: 900;
+    line-height: 1;
+}
+.section-price__sum {
+    color: rgba(255, 0, 0, 1);
+}
